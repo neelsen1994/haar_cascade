@@ -1,6 +1,6 @@
 # Haar Cascade for Object Detection 
 
-This work employs a Haar Cascade detector to identify wood logs. Positioned on the harvesting machine at the harvesting station, the camera captures images of wood log cross-sections triggered by their movement on the cutting belt. However, external factors occasionally cause false triggers, capturing images without wood logs. The Haar Cascade model effectively distinguishes the presence of wood logs in the images, eliminating those without wood logs from consideration.
+This work utilizes a Haar Cascade Classifier for the identification of wood logs. Positioned at the harvesting station, a camera is affixed to the harvesting machine, capturing images of the wood log cross-section whenever it aligns with the lens. The camera activation is synchronized with the movement of logs on the cutting belt. However, external factors occasionally lead to false triggers, resulting in the capture of images without wood logs. The Haar Cascade model is employed to discern the presence of wood logs in the images, effectively filtering out those without wood logs.
 
 In this project, we implement a Haar Cascade using OpenCV. This is a machine-learning object detection method used to identify objects in images or video. It is based on the Haar Wavelet technique, which is a mathematical concept used in signal processing. The Haar Cascade is particularly popular for detecting faces in images.
 
