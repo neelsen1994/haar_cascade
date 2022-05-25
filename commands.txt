@@ -1,0 +1,6 @@
+C:\opencv\build\x64\vc15\bin\opencv_annotation.exe --annotations=pos.txt --images=positive -m=1 -r=3 
+
+C:\opencv\build\x64\vc15\bin\opencv_createsamples.exe -info pos.txt -h 48 -w 48 -num 1000 -vec pos.vec
+
+C:\opencv\build\x64\vc15\bin\opencv_traincascade.exe -data cascade/ -vec pos.vec -bg neg.txt -w 48 -h 48 -numPos 8
+0 -numNeg 200 -numStages 10
