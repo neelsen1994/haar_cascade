@@ -50,5 +50,6 @@ This is a test output after training the model with the company dataset from the
 # References
 
 Published Paper: https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf
+
 Link to the OPenCV tutorial: https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf
 
