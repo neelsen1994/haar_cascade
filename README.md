@@ -2,6 +2,8 @@
 
 This work implements a Haar Cascade Classifier using OpenCV. This is a machine-learning object detection method used to identify objects in images or video. It is based on the Haar Wavelet technique, which is a mathematical concept used in signal processing. The Haar Cascade Classifier is particularly popular for detecting faces in images.
 
+![Haar Cascade](resources/haar_classifier.jpg)
+
 # Overview
 
 1. To use a Haar Cascade Classifier for a specific object detection task, the classifier needs to be trained. During training, the classifier is provided with positive and negative samples of the object. Positive samples contain the object of interest, while negative samples do not.
@@ -34,3 +36,19 @@ This work implements a Haar Cascade Classifier using OpenCV. This is a machine-l
   ```
 
 * Finally, the model is tested with [main.py](main.py).
+
+# Demo Result
+
+## Dataset Notice
+
+Please note that the dataset used in this project is proprietary and owned by a company client of Fraunhofer IPM. Unfortunately, we are unable to provide public access to the dataset due to legal and confidentiality agreements. The focus of this repository is to showcase the code, methodology, and results derived from the dataset.
+
+This is a test output after training the model with the company dataset from the forest and the test image is obtained from Google.
+
+![Test Output](resources/test_output.jpeg)
+
+# References
+
+Published Paper: https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf
+Link to the OPenCV tutorial: https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf
+
