@@ -6,7 +6,7 @@ In this project, we implement a Haar Cascade using OpenCV. This is a machine-lea
 
 ![Haar Cascade](resources/haar_classifier.jpg)
 
-# Overview
+## Overview
 
 1. To use a Haar Cascade Classifier for a specific object detection task, the classifier needs to be trained. During training, the classifier is provided with positive and negative samples of the object. Positive samples contain the object of interest, while negative samples do not.
 2. The Haar Cascade method works by evaluating rectangular features at different scales in an image. These features are like filters that respond to specific patterns of intensity changes in the image.
@@ -14,7 +14,7 @@ In this project, we implement a Haar Cascade using OpenCV. This is a machine-lea
 4. Adaboost Training: During training, a machine learning algorithm called Adaboost is used to select the most relevant features and assign weights to them. Weaker classifiers are combined into a strong classifier that can effectively discriminate between positive and negative samples.
 5. During the detection phase, a sliding window is used to scan the image at different scales and positions. At each step, the classifier evaluates the features within the window to determine if the object is present.
 
-# Getting started
+## Getting started
 
 * Install OpenCV for annotation and training in Windows. Download the .exe file of the latest version of OpenCV here: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.4.3/
 * After downloading, extract the folder called 'opencv' and copy this path: C:\Users\username\Downloads\opencv\build\x64\vc15\bin
@@ -39,17 +39,17 @@ In this project, we implement a Haar Cascade using OpenCV. This is a machine-lea
 
 * Finally, the model is tested with [main.py](main.py).
 
-# Demo Result
-
-## Dataset Notice
-
-Please note that the dataset used in this project is proprietary and owned by a company client of Fraunhofer IPM. Unfortunately, we are unable to provide public access to the dataset due to legal and confidentiality agreements. The focus of this repository is to showcase the code, methodology, and results derived from the dataset.
+## Demo Result
 
 This is a test output after training the model with the company dataset from the forest and the test image is obtained from Google.
 
 ![Test Output](resources/test_output.jpeg)
 
-# References
+### Dataset Notice
+
+Please note that the dataset used in this project is proprietary and owned by a company client of Fraunhofer IPM. Unfortunately, we are unable to provide public access to the dataset due to legal and confidentiality agreements. The focus of this repository is to showcase the code, methodology, and results derived from the dataset.
+
+## References
 
 Published Paper: https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf
 
